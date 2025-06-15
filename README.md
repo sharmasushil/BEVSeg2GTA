@@ -103,8 +103,6 @@ If you find this work useful, please cite:
 }
 
 
----
 
-Let me know if you'd like to split this into multiple files (like `CITATION.cff`, `docs/`, etc.) or auto-generate links to nuScenes or pretrained models.
 
 
