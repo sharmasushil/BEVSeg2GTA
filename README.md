@@ -23,9 +23,11 @@ The BEVSeg2GTA framework aims to enhance ego vehicle trajectory prediction by in
 ## Our Contribution  ⚙️
 
 
--  Our proposed deep architecture offers an approach to jointly accomplish vehicle segmentation and ego vehicle trajectory prediction tasks by combining and adapting the works of CVT and Covernet.
--  We propose enhancements to the capabilities of the current encoder-decoder transformer used in the spatio-temporal probabilistic network (STPN) for optimizing trajectory prediction.
--  We implemented an end-to-end trainable surround-view camera bird's-eye-view-based network that achieves state-of-the-art results on the nuScenes dataset when jointly trained with segmentation
+-  Our  proposal architecture (\textbf{BEVSeg2GTA}) offers an approach to accomplish vehicle segmentation and ego vehicle trajectory prediction tasks jointly, thereby achieving state-of-the-art results in both segmentation and trajectory prediction compared on the nuScenes dataset.
+-  Our proposal integrates GNNs into the BEV architecture to capture the spatial relationships of the host vehicle and nearby objects, where the weights of the connections are inverses of the distances.
+-  STPN is then integrated for trajectory estimation, so our network proposal considers both spatial and temporal aspects of the problem.
+
+
     
 
 ## Our proposed architecture ⛓️
