@@ -87,24 +87,24 @@ Qualitative outcomes of our model (BEVSeg2GTA): The six camera perspectives of n
 
 
 
+## 📄 Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@ARTICLE{10679361,
+  author={Sharma, Sushil and Das, Arindam and Sistu, Ganesh and Halton, Mark and Eising, Ciarán},
+  journal={IEEE Access}, 
+  title={BEVSeg2GTA: Joint Vehicle Segmentation and Graph Neural Networks for Ego Vehicle Trajectory Prediction in Bird’s-Eye-View}, 
+  year={2024},
+  volume={12},
+  pages={132159--132174},
+  doi={10.1109/ACCESS.2024.3459595}
+}
 
 
+---
 
-## Citation 👇🏻
-##### If you like our work, Please we kindly request that you cite the following paper:
+Let me know if you'd like to split this into multiple files (like `CITATION.cff`, `docs/`, etc.) or auto-generate links to nuScenes or pretrained models.
 
-```BibTeX
-@conference{visapp24,
- author={Sushil Sharma. and Arindam Das. and Ganesh Sistu. and Mark Halton. and Ciarán Eising.},
- title={BEVSeg2TP: Surround View Camera Bird’s-Eye-View Based Joint Vehicle Segmentation and Ego Vehicle Trajectory Prediction},
- booktitle={Proceedings of the 19th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 4: VISAPP},
- year={2024},
- pages={25-34},
- publisher={SciTePress},
- organization={INSTICC},
- doi={10.5220/0012321700003660},
- isbn={978-989-758-679-8},
- issn={2184-4321}}
- 
-```
 
