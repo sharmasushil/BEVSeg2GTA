@@ -76,13 +76,18 @@ Evaluation of competing methods on the nuScenes dataset, analyzing Minimum Avera
 | MHA-JAM [11]             | 1.85          | *1.24*         | **1.03**       | 3.72          | *2.23*         | *1.67*         | *0.60*               | **0.46**              |
 | **Ours**                 | **1.63**      | **1.19**       | *1.06*         | *3.63*        | **2.13**       | **1.65**       | **0.56**             | *0.51*                |
 
-
+Bold = Best result, Italics = Second best
+Missing values are marked with -
 
 ## Qualitative results 📈
 
- Qualitative results of BEVSeg2TP model for joint vehicle segmentation and ego vehicle trajectory prediction:} Six camera views around the vehicle (top three facing forward, bottom three facing backwards) with ground truth segmentation on the right. Our trajectory prediction with improved map-view segmentation (second from right) compared to the CVT  method (third from right).
+Qualitative outcomes of our model (BEVSeg2GTA): The six camera perspectives of nuScenes surrounding the vehicle are shown, with the top three facing forward and the bottom three facing backward. Ground truth segmentation is displayed on the right. Our trajectory prediction approach integrates improved map-view segmentation with ego vehicle trajectory (second from the right), and it is compared to the LSS method  and the CVT method  (third and fourth from the right)
 
-<img src="https://github.com/sharmasushil/BEVSeg2TP/assets/70905483/e1796ce0-9cdb-4481-a3ed-5fbbff1acaef" width ="650">
+<img src="https://github.com/user-attachments/assets/39775418-9558-4fd0-80e5-c322c9e92c74" width ="650">
+
+
+
+
 
 
 ## Citation 👇🏻
