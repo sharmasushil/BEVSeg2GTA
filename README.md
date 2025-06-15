@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    <h4 align="center"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10679361">📑 Article</a>  
+    <h4 align="center"><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10679361">📑 IEEE</a>  
     
 </p>
 
