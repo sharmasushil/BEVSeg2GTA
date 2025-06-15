@@ -16,7 +16,8 @@ Further, the node and image features are fed into a Graph Neural Network to lear
 ## Our Overview 📑
 Our proposed BEVSeg2GTA architecture:} Our method for jointly segmenting vehicles and predicting the trajectory of the ego vehicle consists of several stages. Initially, we extract image features across different scales and integrate a camera-aware positional embedding to address perspective distortion. Following this, we employ map-view positional embedding and cross-attention layers to gather contextual insights from various viewpoints and enhance the segmentation accuracy of the ego vehicle. The segmented results are then passed through a $k$NN to generate embeddings representing the surrounding environment. These embeddings are further utilized as input to a probabilistic layer for trajectory prediction, leveraging contextual information from the surrounding scene. Stars are used to indicate the novel contributions of this work (\textcolor{red}{red} and \textcolor{green}{green} indicating major and minor component contributions, respectively.
 
-<img src="https://github.com/sharmasushil/BEVSeg2TP/assets/70905483/7fadf884-cfd6-4ce0-ad8b-3b33cf593c45" width ="850">
+<img src="https://github.com/user-attachments/assets/f2287b30-3123-4085-8455-05eab78b23d1" width ="850">
+
 
 ## Our Contribution  ⚙️
 
