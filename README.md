@@ -14,12 +14,14 @@ a novel approach that aims to forecast trajectories by treating perception and t
 Further, the node and image features are fed into a Graph Neural Network to learn the complex relationships between agents in a spatial context. Finally, the Graph Neural Network learned features are passed to a Spatio-Temporal Probabilistic Network to predict the ego vehicle's future trajectory accurately. The proposed framework, \textit{BEVSeg2GTA}, has been extensively evaluated on nuScenes datasets. The results demonstrate that the proposed method improves the state-of-the-art performance.
 
 ## Our Overview 📑
-Our proposed BEVSeg2GTA architecture:} Our method for jointly segmenting vehicles and predicting the trajectory of the ego vehicle consists of several stages. Initially, we extract image features across different scales and integrate a camera-aware positional embedding to address perspective distortion. Following this, we employ map-view positional embedding and cross-attention layers to gather contextual insights from various viewpoints and enhance the segmentation accuracy of the ego vehicle. The segmented results are then passed through a $k$NN to generate embeddings representing the surrounding environment. These embeddings are further utilized as input to a probabilistic layer for trajectory prediction, leveraging contextual information from the surrounding scene. Stars are used to indicate the novel contributions of this work (\textcolor{red}{red} and \textcolor{green}{green} indicating major and minor component contributions, respectively.
+The BEVSeg2GTA framework aims to enhance ego vehicle trajectory prediction by integrating an encoder-decoder transformer and a GNN. The framework begins with a projection module, which transforms the input multi-camera views and map information into a BEV perspective using an encoder-decoder transformer. The segmentation output from this module is then fed into the GNN, which is utilized to construct a graph representing spatial information. This graph is subsequently employed as input into an STPN, which produces predictions of the ego vehicle's trajectory.
 
-<img src="https://github.com/user-attachments/assets/f2287b30-3123-4085-8455-05eab78b23d1" width ="850">
+<img src="https://github.com/user-attachments/assets/ba98c000-debc-44a3-bc9b-2865923b900c" width ="850">
+
 
 
 ## Our Contribution  ⚙️
+
 
 -  Our proposed deep architecture offers an approach to jointly accomplish vehicle segmentation and ego vehicle trajectory prediction tasks by combining and adapting the works of CVT and Covernet.
 -  We propose enhancements to the capabilities of the current encoder-decoder transformer used in the spatio-temporal probabilistic network (STPN) for optimizing trajectory prediction.
@@ -27,9 +29,10 @@ Our proposed BEVSeg2GTA architecture:} Our method for jointly segmenting vehicle
     
 
 ## Our proposed architecture ⛓️
- Our proposed BEVSeg2TP architecture:  Joint vehicle segmentation and ego vehicles trajectory prediction involve extracting image features $\{ \phi\}$ at multiple scales and using a camera-aware positional embedding $\{ \delta\}$ to account for perspective distortion. We then use map-view positional embedding and cross-attention layers to capture contextual information from multiple views and refine the vehicle segmentation. This segmentation information is then used as input to a spatio-temporal probabilistic network (STPN) for trajectory prediction based on the surrounding environment.
+Our proposed BEVSeg2GTA architecture:} Our method for jointly segmenting vehicles and predicting the trajectory of the ego vehicle consists of several stages. Initially, we extract image features across different scales and integrate a camera-aware positional embedding to address perspective distortion. Following this, we employ map-view positional embedding and cross-attention layers to gather contextual insights from various viewpoints and enhance the segmentation accuracy of the ego vehicle. The segmented results are then passed through a $k$NN to generate embeddings representing the surrounding environment. These embeddings are further utilized as input to a probabilistic layer for trajectory prediction, leveraging contextual information from the surrounding scene. Stars are used to indicate the novel contributions of this work (\textcolor{red}{red} and \textcolor{green}{green} indicating major and minor component contributions, respectively.
 
-<img src="https://github.com/sharmasushil/BEVSeg2TP/assets/70905483/a7803afc-8507-4462-83c4-c979f5a7ceb2" width = "650">
+<img src="https://github.com/user-attachments/assets/f2287b30-3123-4085-8455-05eab78b23d1" width ="850">
+
 
 ## Qualitative results 📈
 
