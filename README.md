@@ -62,6 +62,13 @@ We compare the performance of different methods for vehicle segmentation on the 
 
 
 
+### 📚 References
+
+[7] Phan et al., CoverNet  
+[8] Salzmann et al., Trajectron++  
+[9] Cui et al., MTP  
+[10] Chai et al., MultiPath  
+[11] Messaoud et al., MHA-JAM
 
 
 
