@@ -46,6 +46,23 @@ Exploring how changes in the parameter k, representing the number of nearest nei
 
 
 
+
+📊 Vehicle Segmentation Results on nuScenes Dataset
+We compare the performance of different methods for vehicle segmentation on the nuScenes dataset, including our proposed approach. The results are evaluated using Intersection over Union (IoU) for the BEV segmentation task.
+
+Method	Surround-View Camera	Input Image Size (px)	Feature Extractor	Grid Scale / Unit Size	FPS	Vehicle IoU (%) ↑
+PanSeg [1]	✗	448 × 768	EfficientDet	-	-	35.06
+GitNet [2]	✗	-	ResNet50	200×200 / 0.25m	-	35.90
+M2BEV [3]	✓	900 × 1600	ResNeXt-101	200×200 / 0.5m	-	-
+LSS [4]	✓	128 × 352	EfficientNet-B0	200×200 / 0.5m	25	32.1
+CVT [5]	✓	200 × 200	EfficientNet-B4	200×200 / 0.5m	35	36.0
+CoBEVT [6]	✓	200 × 200	EfficientNet-B4	200×200 / 0.5m	35	37.1
+Ours	✓	200 × 200	EfficientNet-B4	200×200 / 0.5m	35	37.9
+
+
+
+
+
 ## Qualitative results 📈
 
  Qualitative results of BEVSeg2TP model for joint vehicle segmentation and ego vehicle trajectory prediction:} Six camera views around the vehicle (top three facing forward, bottom three facing backwards) with ground truth segmentation on the right. Our trajectory prediction with improved map-view segmentation (second from right) compared to the CVT  method (third from right).
