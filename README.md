@@ -1,7 +1,7 @@
 
 
 <p align="center">
-    <h4 align="center"><a href="https://ieeexplore.ieee.org/abstract/document/10679361">📑 IEEE Access</a>  | <a href="https://www.youtube.com/watch?v=dAQlKvQ1Dk0&ab_channel=SushilSharma">🎬 Video</a>    </h4> 
+    <h4 align="center"><a href="https://ieeexplore.ieee.org/abstract/document/10679361">📑 IEEE Access</a>  | <a href="https://www.youtube.com/watch?v=zsNb2Po-sEA&ab_channel=SushilSharma">🎬 Video</a>    </h4> 
 </p>
 
 ## BEVSeg2GTA: Joint Vehicle Segmentation and Graph Neural Networks for Ego Vehicle Trajectory Prediction in Bird's-Eye-View
